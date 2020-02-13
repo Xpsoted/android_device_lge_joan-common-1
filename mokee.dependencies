@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "Slowhy/android_kernel_lge_msm8998",
+    "target_path": "kernel/lge/msm8998",
+    "branch": "ten-wip"
+  },
+  {
+    "remote": "github",
+    "repository": "Slowhy/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch": "lineage-17.1"
+  }
+]

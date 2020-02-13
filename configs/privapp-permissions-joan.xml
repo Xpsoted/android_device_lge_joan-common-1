@@ -16,7 +16,7 @@
   -->
 
 <permissions>
-    <privapp-permissions package="org.lineageos.settings.device">
+    <privapp-permissions package="org.mokee.settings.device">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
