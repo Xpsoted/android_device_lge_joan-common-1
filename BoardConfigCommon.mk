@@ -180,7 +180,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_RIL_VARIANT := caf
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += device/lge/joan-common/sepolicy/vendor
 #BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/lge/joan-common/sepolicy/private
 SELINUX_IGNORE_NEVERALLOWS := true
