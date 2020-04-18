@@ -1,15 +1,15 @@
 [
   {
     "remote": "github",
-    "repository": "Slowhy/kernel_lge_msm8998",
+    "repository": "Slowhy/android_kernel_lge_msm8998",
     "target_path": "kernel/lge/msm8998",
-    "branch": "lineage-17.1"
+    "branch": "pe-ten"
   },
   {
     "remote": "github",
     "repository": "Slowhy/proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "branch": "lineage-17.1"
+    "branch": "pe-ten"
   },
   {
     "repository": "packages_apps_PixelLiveWallpaper",
