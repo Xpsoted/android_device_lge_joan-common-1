@@ -24,9 +24,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay \
-#    $(COMMON_PATH)/overlay-mokee
+    $(COMMON_PATH)/overlay-mokee
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(COMMON_PATH)/overlay-mokee/mokee-sdk
 
 # Properties
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
