@@ -28,7 +28,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Properties
--include $(COMMON_PATH)/vendor_prop.mk
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
