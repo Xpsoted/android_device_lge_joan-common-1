@@ -29,7 +29,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Properties
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
